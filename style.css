@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.nv{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.foto{
+  width: 220px;
+  height: 250px;
+  border-radius: 50%;
+}
+.card-img{
+  height: 150px;
+  border-radius: 5px 5px 0 0;
+}
+.card{
+  padding: 0;
+}
