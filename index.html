@@ -10,38 +10,39 @@
 </head>
 <body style="margin: 0; padding: 0; scroll-behavior: smooth;">
   <div class="container-fluid">
-    <div class="row bg-dark nv align-items-center" style="position: sticky;
+    <div class="row bg-dark nv d-flex h-5" style="position: sticky;
     top: 0; z-index: 1;">
-      <div class="col-1 nav h-5"></div>
-      <div class="col-7 nav pt-3">
-        <p class="text-light nombre fs-4"><b>Edwin</b> Mendez</p>
+      <div class="col-xxl-1 col-md-1 nav"></div>
+      <div class="col-xxl-8 col-xl-7 col-lg-7 col-md-6 col-sm-5">
+        <p class="text-light nombre fs-4 pt-2"><b>Edwin</b> Mendez</p>
       </div>
-      <div class="col nav inicio justify-content-center">
-        <a href="#" class="text-light text-decoration-none">Inicio</a>
+      <div class="col-xxl-3 col-lg-4 col-md-5 col-sm-7 opc d-flex align-items-center">
+          <div class="col nav inicio justify-content-center">
+            <a href="#" class="text-light text-decoration-none">Inicio</a>
+          </div>
+          <div class="col nav soy">
+            <a href="#quien" class="text-secondary text-decoration-none">¿Quien soy?</a>
+          </div>
+          <div class="col nav inicio">
+            <a href="#proyectos" class="text-decoration-none text-secondary">Proyectos</a>
+          </div>
       </div>
-      <div class="col nav soy">
-        <a href="#quien" class="text-secondary text-decoration-none">¿Quien soy?</a>
-      </div>
-      <div class="col nav inicio">
-        <a href="#proyectos" class="text-decoration-none text-secondary">Proyectos</a>
-      </div>
-      <div class="col-1 nav"></div>
-      <div class="col-1 nav"></div>
-      <div class="col-1 nav"></div>
+      <div class="col nav"></div>
     </div>
 
 
-    <section id="inicio" class="row seccion-uno py-4 mt-2 mb-5">
-      <div class="col-2"></div>
-      <div class="col">
-        <img class="programador w-100 h-100 pt-2" src="./img/programador.jpg">
+    <section id="inicio" class="row seccion-uno py-4 mt-2 mb-5 px-4">
+      <div class="col-xxl-2 col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+      <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4">
+        <img class="programador w-100 pt-2" src="./img/programador.jpg">
       </div>
-      <div class="col-5 texto align-self-center ps-5">
+      <div class="col-xxl-1 col-lg-1 col-md-1 col-sm-1 p-0"></div>
+      <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-5 col-sm-5 texto align-self-center px-0 pt-sm-2">
         <h2 class="text-danger titulo fs-1"><b>¿Quien soy?</b></h2>
         <p class="text-secondary lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita repellendus quisquam officia ex obcaecati similique tenetur et accusamus dolores officiis cum temporibus, vero neque! Ea consequuntur praesentium iste nulla nihil!</p>
         <a href="#quien" class="btn btn-danger">Leer más...</a>
       </div>
-      <div class="col-2"></div>
+      <div class="col-xxl-3 col-xl-1 col-md-1"></div>
     </section>
 
     <section id="quien" class="row bg-danger seccion-dos py-4">
@@ -64,55 +65,67 @@
       <div class="row">
         <p class="titulo-proyectos text-secondary text-center fs-1 mt-4 mb-4"><b>Mis proyectos</b></p>
       </div>
-      <div class="row cards text-secondary d-flex justify-content-between text-center">
-        <div class="col-1"></div>
-        <div class="card image-size px-0 py-0" style="width: 15rem;">
-          <img src="./img/escritorio.jpg" class="card-img-top card-size" alt="escritorio" style="height: 150px; border-radius: 5px 5px 0 0;">
-          <div class="card-body">
-            <h5 class="card-title fs-3">Proyecto 1</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, excepturi sit voluptate maxime quasi assumenda facere libero quis quidem, atque tempora eaque magnam pariatur aliquid enim aperiam dolores repellendus!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <a href="#" class="btn btn-danger boton">Ver proyecto</a>
+      <div class="row tarjetas">
+        <div class="col-xxl-1 col-md-1 col-sm-2"></div>
+        <div class="col-10 cards text-secondary d-flex text-center">
+          <div class="row">
+            <div class="tarj-uno col-xxl-3 col-lg-4 col-md-6 col-sm-9 px-5 pb-4">
+              <div class="card image-size px-0 py-0">
+                <img src="./img/escritorio.jpg" class="card-img-top card-size" alt="escritorio" style="height: 150px; border-radius: 5px 5px 0 0;">
+                <div class="card-body">
+                  <h5 class="card-title fs-3">Proyecto 1</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, excepturi sit voluptate maxime quasi assumenda facere libero quis quidem, atque tempora eaque magnam pariatur aliquid enim aperiam dolores repellendus!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-danger boton">Ver proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="tarj-dos col-xxl-3 col-lg-4 col-md-6 col-sm-9 px-5 pb-4">
+              <div class="card image-size px-0 py-0">
+                <img src="./img/imagen2.jpeg" class="card-img-top card-size" alt="estudio" style="height: 150px; border-radius: 5px 5px 0 0;">
+                <div class="card-body">
+                  <h5 class="card-title fs-3">Proyecto 2</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, excepturi sit voluptate maxime quasi assumenda facere libero quis quidem, atque tempora eaque magnam pariatur aliquid enim aperiam dolores repellendus!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-danger boton">Ver proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="tarj-tres col-xxl-3 col-lg-4 col-md-6 col-sm-9 px-5 pb-4">
+              <div class="card image-size px-0 py-0">
+                <img src="./img/imagen3.jpg" class="card-img-top card-size" alt="teclado" style="height: 150px; border-radius: 5px 5px 0 0;">
+                <div class="card-body">
+                  <h5 class="card-title fs-3">Proyecto 3</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, excepturi sit voluptate maxime quasi assumenda facere libero quis quidem, atque tempora eaque magnam pariatur aliquid enim aperiam dolores repellendus!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-danger boton">Ver proyecto</a>
+                </div>
+              </div>
+            </div>
+            <div class="tarj-cuatro col-xxl-3 col-lg-4 col-md-6 col-sm-9 px-5 pb-4">
+              <div class="card image-size px-0 py-0">
+                <img src="./img/imagen4.jpg" class="card-img-top card-size" alt="robot" style="height: 150px; border-radius: 5px 5px 0 0;">
+                <div class="card-body">
+                  <h5 class="card-title fs-3">Proyecto 4</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, excepturi sit voluptate maxime quasi assumenda facere libero quis quidem, atque tempora eaque magnam pariatur aliquid enim aperiam dolores repellendus!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-danger boton">Ver proyecto</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card image-size px-0 py-0" style="width: 15rem;">
-          <img src="./img/imagen2.jpeg" class="card-img-top card-size" alt="estudio" style="height: 150px; border-radius: 5px 5px 0 0;">
-          <div class="card-body">
-            <h5 class="card-title fs-3">Proyecto 2</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, excepturi sit voluptate maxime quasi assumenda facere libero quis quidem, atque tempora eaque magnam pariatur aliquid enim aperiam dolores repellendus!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <a href="#" class="btn btn-danger boton">Ver proyecto</a>
-          </div>
-        </div>
-        <div class="card image-size px-0 py-0" style="width: 15rem;">
-          <img src="./img/imagen3.jpg" class="card-img-top card-size" alt="teclado" style="height: 150px; border-radius: 5px 5px 0 0;">
-          <div class="card-body">
-            <h5 class="card-title fs-3">Proyecto 3</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, excepturi sit voluptate maxime quasi assumenda facere libero quis quidem, atque tempora eaque magnam pariatur aliquid enim aperiam dolores repellendus!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <a href="#" class="btn btn-danger boton">Ver proyecto</a>
-          </div>
-        </div>
-        <div class="card image-size px-0 py-0" style="width: 15rem;">
-          <img src="./img/imagen4.jpg" class="card-img-top card-size" alt="robot" style="height: 150px; border-radius: 5px 5px 0 0;">
-          <div class="card-body">
-            <h5 class="card-title fs-3">Proyecto 4</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eligendi, excepturi sit voluptate maxime quasi assumenda facere libero quis quidem, atque tempora eaque magnam pariatur aliquid enim aperiam dolores repellendus!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <a href="#" class="btn btn-danger boton">Ver proyecto</a>
-          </div>
-        </div>
-        <div class="col-1"></div>
       </div>
+      <div class="col-1"></div>
     </section>
 
     <footer class="row bg-dark footer">
-      <div class="col-5"></div>
-      <div class="col-6 copy d-flex justify-content-end">
+      <div class="col-xxl-5 col-lg-3 col-sm-1"></div>
+      <div class="col-xxl-6 col-sm-8 copy d-flex justify-content-end">
         <p class="text-light pt-3 ">Copyright © 2018. Todos los derechos reservados.</p>
       </div>
       <div class="col"></div>
